@@ -1,8 +1,8 @@
 import React from 'react';
 import ContactForm from '../Form/index';
-import ContactForm from "../Form/index";
 
-export default function Contact() {
+
+export const Contact = () => {
   return (
     <div>
       <h1>Contact</h1>

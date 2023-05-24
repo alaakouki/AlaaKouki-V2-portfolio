@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Resume() {
+export const Resume =() => {
   return (
     <div>
       <h1>Resume</h1>

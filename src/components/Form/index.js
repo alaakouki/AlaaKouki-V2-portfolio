@@ -49,7 +49,7 @@ function ContactForm() {
   
       // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
       if (!validateEmail(email)) {
-        setErrorMessage('Email or name is invalid');
+        setErrorMessage('Your email is invalid');
         // We want to exit out of this code block if something is wrong so that the user can correct it
         return;
         // To make sure all fields are not empty

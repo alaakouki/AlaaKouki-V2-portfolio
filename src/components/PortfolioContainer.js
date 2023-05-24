@@ -22,16 +22,16 @@ function PorfolioContainer () {
         if (currentPage === "Contact") {
             return <Contact />;
         }
-
-        return <Resume />
-
+        if (currentPage === "Resume") {
+            return <Resume />;
+        }
     };
 
 const handlePageChange = (page) => setCurrentPage(page);
 
 return (
     <div>
-        <NavTabs currentPage= {currentPage} handlePageChange= {handlePageChange} />
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
     </div>
 );
