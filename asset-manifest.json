@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AlaaKouki-V2-portfolio/static/css/main.47ef0228.css",
+    "main.js": "/AlaaKouki-V2-portfolio/static/js/main.3d82919a.js",
+    "index.html": "/AlaaKouki-V2-portfolio/index.html",
+    "main.47ef0228.css.map": "/AlaaKouki-V2-portfolio/static/css/main.47ef0228.css.map",
+    "main.3d82919a.js.map": "/AlaaKouki-V2-portfolio/static/js/main.3d82919a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47ef0228.css",
+    "static/js/main.3d82919a.js"
+  ]
+}
