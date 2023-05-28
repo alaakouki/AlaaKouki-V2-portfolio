@@ -1,15 +1,32 @@
 import React from 'react';
 
-export const Resume =() => {
+
+const styles = {
+  linkStyle: {
+    color: "#f9f9f9",
+  },
+  listStyle: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    alignContent: "center",
+  },
+  h4Style: {
+    marginTop: "30px"
+  },
+};
+
+export const Resume = () => {
   return (
-    <div>
+    <div className='resumeContainer'>
       <h1>Resume</h1>
 
       <p>
-        Download my <a href='#'>resume</a>
+        Download my <a href='#' style={styles.linkStyle}>resume</a>
       </p>
 
-<h4>Front-end Proficiencies</h4>
+      <h4 style={styles.h4Style}>Front-end Proficiencies</h4>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -20,7 +37,7 @@ export const Resume =() => {
         <li>Bootstrap</li>
       </ul>
 
-<h4>Back-end Proficiencies</h4>
+      <h4 style={styles.h4Style}>Back-end Proficiencies</h4>
       <ul>
         <li>APIs</li>
         <li>Node.js</li>

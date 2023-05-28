@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/engin-akyurt-Hlkuojv_P6I-unsplash-2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    color: #f9f9f9;
+}
+
+.header-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accordionItem {
+    transition:
+    flex-grow .3s linear,
+    background-color .2s ease
+}
+
+.accordionItem:hover {
+        background-color: #cde9f7;
+        flex-grow: 3;
+}
+
+i {
+    font-size: x-large;
+}
+
+.contactContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#f9f9f9;
+}
+
+.aboutMeContainer,
+.contactContainer,
+.resumeContainer,
+.portfolioContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 30px;   
+    margin-bottom: 20px;
+}
+
+li .nav-item {
+    color: #f9f9f9;
+}

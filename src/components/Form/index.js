@@ -101,7 +101,9 @@ function ContactForm() {
             value={message}
             name="message"
             onChange={handleInputChange}
-            type="text"
+            type="textarea"
+            rows={4}
+            cols={50}
             placeholder="message"
           />
           <button type="button" onClick={handleFormSubmit}>Submit</button>
