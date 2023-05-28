@@ -25,15 +25,21 @@
 // export default App;
 
 
-
-
-
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
-return <PortfolioContainer/>;
+return (
+<div>
+<Header/>
+<PortfolioContainer/>
+<Footer/>
+</div>
+
+);
 }
 
 export default App;
