@@ -25,7 +25,7 @@ export const AboutMe =() => {
   return (
     <div className='aboutMeContainer' style={styles.aboutMeContainerStyle}>
       <div className='personalImage'>
-        <img style={styles.myImageStyle} src={personalImage} alt="Alaa Kouki"/>
+        <img style={styles.myImageStyle} src={personalImage} alt="Alaa Kouki" className='myImage'/>
       </div>
       <div className='aboutMeText'>
       <h1 style={styles.fontStyle}>About me</h1>

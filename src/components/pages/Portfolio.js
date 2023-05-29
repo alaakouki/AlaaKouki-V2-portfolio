@@ -9,27 +9,7 @@ import beSunshine from "../../assets/images/be-sunshine-weather-app-screenshot.p
 import vavoEstore from "../../assets/images/Vavo-Estore-Back-End.jpg";
 
 
-const styles = {
 
-  accordion: {
-  height: "100%",
-  display: "flex",
-  justifyContent: "center",
-  flexDirection: "column",
-  },
-  accordionItem: {
-  flexBasis: "10%",
-  height: "100%",
-  marginBottom: "1em",
-  borderRadius: "5px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "#e6f8ff",
-  // cursor: "pointer",
-  // boxShadow: "1px 1px 0.3em #67adb5",
-  },
-  };
 
 
 export const Portfolio = () => {
@@ -37,7 +17,7 @@ export const Portfolio = () => {
     <div className="portfolioContainer">
       <h1 className="portfolioTitle">Portfolio</h1>
 
-      <div className="projectsContainer accordion" style={styles.accordion}>
+      <div className="projectsContainer accordion">
         <div>
           {
             [
@@ -77,13 +57,13 @@ export const Portfolio = () => {
                 title: "Vavo Estore -- back-end",
                 projectImage: vavoEstore,
                 deployedLink:
-                  "https://linhntran.github.io/work-day-scheduler/",
+                  "https://drive.google.com/file/d/1fYxK-fCQtPbWtxnr91_oaQsnBwMKarTO/view",
                 githubLink:
                   "https://github.com/alaakouki/Vavo-Estore-Back-End",
               },
             ].map((project, index) => (
               // Div container for each project
-              <div className="col-12 col-md-6 col-lg-4 my-2 accordionItem" key={index} style={styles.accordionItem}>
+              <div className="col-md-6 accordionItem" key={index}>
                 <Projects
                   title={project.title}
                   projectImage={project.projectImage}

@@ -1,12 +1,25 @@
 import React from 'react';
 
+const styles = {
+  navStyle: {
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    // marginLeft: "50%",
+    // marginRight: "-50%",
+  },
+  navItemStyle: {
+    color: "#f9f9f9",
+  },
+};
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     // <ul className="nav justify-content-end">
-    <ul className="nav">
-      <li className="nav-item">
+    <ul className="nav navigate justify-content-center" style={styles.navStyle}>
+      <li className="nav-item navigate-item">
         <a
           href="#aboutMe"
           onClick={() => handlePageChange('AboutMe')}
@@ -17,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item navigate-item portfolioBorder" style={styles.navItemStyle}>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -27,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item navigate-item contactBorder" style={styles.navItemStyle}>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -37,7 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item navigate-item" style={styles.navItemStyle}>
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}

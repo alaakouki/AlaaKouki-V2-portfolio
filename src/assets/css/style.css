@@ -19,7 +19,27 @@ body {
     justify-content: space-between;
 }
 
+.accordion {
+height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20%;
+        margin-right: -20%;
+        }
+
 .accordionItem {
+    
+    flex-basis: 10%;
+    height: 100%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f8ff;
     transition:
     flex-grow .3s linear,
     background-color .2s ease
@@ -55,6 +75,47 @@ h1 {
     margin-bottom: 20px;
 }
 
-li .nav-item {
-    color: #f9f9f9;
+/* li .nav-item {
+    color: #f9f9f9 !important;
+} */
+
+
+.navigate-item {
+    --s: 0.1em; /* the thickness of the line */
+    --c: #1095c1; /* any color */
+    color: #0000;
+    padding-bottom: var(--s);
+    background: linear-gradient(90deg, var(--c) 50%, #000 0)
+    calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.5s;
+}
+
+.navigate-item:hover {
+    --_p: 100%;
+}
+
+.contactBorder {
+    border-style: solid;
+    border-color: #f9f9f9;
+    border-width: 0px 1px;
+}
+
+.portfolioBorder {
+    border-left: 1px solid #f9f9f9;
+}
+
+@media screen and (max-width: 768px) {
+
+    .accordion {
+margin-left: 5%;
+                margin-right: -5%;
+                }
+
+                .aboutMeContainer {
+                    flex-direction: column !important;
+                }
+
 }
