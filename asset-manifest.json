@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AlaaKouki-V2-portfolio/static/css/main.8a18274f.css",
-    "main.js": "/AlaaKouki-V2-portfolio/static/js/main.d8ea1102.js",
+    "main.js": "/AlaaKouki-V2-portfolio/static/js/main.051bd1ad.js",
     "static/media/engin-akyurt-Hlkuojv_P6I-unsplash-2.jpg": "/AlaaKouki-V2-portfolio/static/media/engin-akyurt-Hlkuojv_P6I-unsplash-2.49496ac11327bb1d40fd.jpg",
     "static/media/Cosmic-Climate-preview.png": "/AlaaKouki-V2-portfolio/static/media/Cosmic-Climate-preview.9f439cf72ee9839dac65.png",
     "static/media/be-sunshine-weather-app-screenshot.png": "/AlaaKouki-V2-portfolio/static/media/be-sunshine-weather-app-screenshot.dc82e2fe52ae7330e9a5.png",
@@ -9,12 +9,13 @@
     "static/media/f-r-i-e-n-d-s-API--back-end.jpg": "/AlaaKouki-V2-portfolio/static/media/f-r-i-e-n-d-s-API--back-end.2c9efab1e735f311e81b.jpg",
     "static/media/group-calendar-project- 2.png": "/AlaaKouki-V2-portfolio/static/media/group-calendar-project- 2.abbe0d159db9b8f20a2b.png",
     "static/media/personal-image.jpeg": "/AlaaKouki-V2-portfolio/static/media/personal-image.2eec3dfc7074994bc063.jpeg",
+    "static/media/Shifa.png": "/AlaaKouki-V2-portfolio/static/media/Shifa.42e2eb333c8c74e7dd65.png",
     "index.html": "/AlaaKouki-V2-portfolio/index.html",
     "main.8a18274f.css.map": "/AlaaKouki-V2-portfolio/static/css/main.8a18274f.css.map",
-    "main.d8ea1102.js.map": "/AlaaKouki-V2-portfolio/static/js/main.d8ea1102.js.map"
+    "main.051bd1ad.js.map": "/AlaaKouki-V2-portfolio/static/js/main.051bd1ad.js.map"
   },
   "entrypoints": [
     "static/css/main.8a18274f.css",
-    "static/js/main.d8ea1102.js"
+    "static/js/main.051bd1ad.js"
   ]
 }
