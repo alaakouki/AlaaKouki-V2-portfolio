@@ -2,6 +2,7 @@ import React from 'react';
 
 import Projects from "../Projects";
 
+import shifa from "../../assets/images/Shifa.png";
 import groupCalendar from "../../assets/images/group-calendar-project- 2.png";
 import cosmicClimate from "../../assets/images/Cosmic-Climate-preview.png";
 import friendsApi from "../../assets/images/f-r-i-e-n-d-s-API--back-end.jpg";
@@ -21,6 +22,14 @@ export const Portfolio = () => {
         <div>
           {
             [
+              {
+                title: "Shifa",
+                projectImage: shifa,
+                deployedLink:
+                  "https://shifa-wecare.herokuapp.com",
+                githubLink:
+                  "https://github.com/caseyfee/Shifa",
+              },
               {
                 title: "Group Calendar",
                 projectImage: groupCalendar,
